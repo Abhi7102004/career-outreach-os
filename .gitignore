@@ -1,0 +1,28 @@
+# Compiled
+build/
+out/
+target/
+*.class
+
+# IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradle
+.gradle/
+
+# Node (for frontend Day 5)
+node_modules/
+dist/
