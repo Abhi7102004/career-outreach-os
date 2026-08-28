@@ -37,6 +37,8 @@ dependencies {
 	testCompileOnly("org.projectlombok:lombok")
 	testRuntimeOnly("org.junit.platform:junit-platform-launcher")
 	testAnnotationProcessor("org.projectlombok:lombok")
+	runtimeOnly("org.postgresql:postgresql")
+	runtimeOnly("org.flywaydb:flyway-database-postgresql")
 }
 
 tasks.withType<Test> {
